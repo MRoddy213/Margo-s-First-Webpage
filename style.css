@@ -1,0 +1,36 @@
+body
+{
+  background-color: plum;
+  color:antiquewhite;
+  font-family: Lato;
+}
+img
+{
+  height: 50px;
+  float: left;
+  margin: 50px;
+
+}
+
+div
+{
+  margin-left: 190px;
+  border-width: 10px;
+  border-color: aqua;
+  border-style: solid double;
+  animation-name: my-cool-new-animation;
+  animation-duration: 5s; 
+
+}
+@keyframes my-cool-new-animation
+{
+  from
+  {
+    background-color: plum;
+  }
+  to
+  {
+    background-color: grey;
+  }
+}
+
